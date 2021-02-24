@@ -58,6 +58,21 @@ body {
 .main {
   background-color: brown;
   grid-area: main;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mainmain {
+  width: 100%;
+}
+.product {
+  background-color: aqua;
+  min-height: 200px;
+  min-width: 200px;
+  margin: 10px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 footer {
   background-color: brown;
